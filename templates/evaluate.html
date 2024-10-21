@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Given input is {{snum}}</h2>
+
+{% if snum % 2 == 0 %}
+    <p>You Enterd num is {{snum}} and it is even</p>   
+{% else %}
+<p>Your enterd number is{{snum}} and it is odd</p>
+{% endif %}
+
+{% endblock content %}
